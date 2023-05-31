@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Neucha&display=swap');
+
+/*
+font-family: 'Caveat', cursive; об
+font-family: 'Neucha', cursive; заг */
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: 'Caveat', cursive;
+  background: linear-gradient(to top left, #00ffff 0%, #3399ff 100%);
+}
+
+.logo-picture {
+  width: 150px;
+}
+
+.name {
+  font-family: 'Neucha', cursive;
+  font-size: 26px;
+  color: #0080ff;
+}
+
+.logo-name {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 26px;
+  color: #0073e6;
+  position: fixed;
+  top: 50;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navigation {
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu a {
+  text-decoration: none;
+  border-top: 1px solid rgba(0, 0, 0, 0);
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  padding-bottom: 5px;
+  padding-top: 5px;
+  transition: 0.3s;
+  color: #0073e6;
+}
+
+.menu a:hover {
+  color: #ffff00;
+  border-top-color: #ffff00;
+  border-bottom-color: #ffff00;
+}
+
+.start-text {
+  width: 45vw;
+  font-size: 30px;
+  color: #002db3;
+  text-shadow: 4px 4px 3px #3366ff;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.container {
+  width: 90vw;
+  margin: auto;
+}
+
+.home {
+  margin-top: 100px;
+}
+
+.info-picture {
+  width: 400px;
+  height: calc(200px + 50px / 1.75);
+  object-fit: cover;
+  object-position: center;
+}
+
+.short-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 75px;
+}
+
+.info-text {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 15px;
+  color: #002db3;
+  text-shadow: 4px 4px 3px #3366ff;
+}
+
+.heading {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  font-family: 'Neucha', cursive;
+  color: #002db3;
+}
+
+.tags-video {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tag-v-heading {
+  color: #002db3;
+  font-size: 45px;
+  text-shadow: 4px 4px 3px #3366ff;
+}
+
+.video-intag-heading {
+  border: 5px outset #002db3;
+  box-shadow: 8px 8px 3px 0px #3366ff;
+}
+
+.tags-table {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-info th, .table-info td {
+  border: 3px solid #002db3;
+  border-left: none;
+  padding: 20px;
+  font-size: 25px;
+  background-color: #3366ff;
+  color: #002db3;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.home-video {
+  border: 5px outset #002db3;
+  box-shadow: 8px 8px 3px 0px #3366ff;
+}
+
+.first-child-ti th, .first-child-ti td {
+  border-left: 3px solid #002db3;
+}
+
+.table-info th {
+  font-weight: bold;
+}
+
+.table-info {
+  width: 33.3%;
+}
+
+.lists-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.styles-list li {
+  color: #002db3;
+  text-shadow: 4px 4px 3px #3366ff;
+  font-size: 35px;
+  margin-bottom: 15px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.videos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.basic-moment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.basic-picture {
+  width: 45%;
+}
+
+.basic-text {
+  color: #002db3;
+  font-size: 30px;
+  text-shadow: 4px 4px 3px #3366ff;
+  width: 45%;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.basic-moments {
+  margin-top: 70px;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts p {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.contacts span {
+  font-weight: bold;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.icon{
+  width: 50px;
+  margin-right: 5px;
+}
+
+.social-icons a {
+  text-decoration: none;
+}

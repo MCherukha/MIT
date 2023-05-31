@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Shadows+Into+Light&display=swap');
+/* font-family: 'Chilanka', cursive;
+font-family: 'Shadows Into Light', cursive; */
+/* 1-з 2-об */
+
+body{
+  position: relative;
+  /* background-image: url('../img/wallpaper.jpg'); */
+  background: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)), url('../img/wallpaper.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.logo-picture{
+  width: 150px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu{
+  font-family: 'Chilanka', cursive;
+  font-size: 20px;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+  text-shadow: #66ffff 1px 1px 1px;
+  text-shadow: -1px 0 #66ffff, 0 1px #66ffff, 1px 0 #66ffff, 0 -1px #66ffff;
+}
+
+.nav-bar{
+  width: 800px;
+  position: fixed;
+  top: 56px;
+  right: 50px;
+}
+
+.logo{
+  margin-left: 50px;
+}
+
+.home{
+  height: 100vh;
+  background-image: url('../img/music fon.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a{
+  text-decoration: none;
+}
+
+.menu a{
+  color: #000;
+  transition: 0.3s;
+  border-bottom: 2px solid rgba(0,0,0,0);
+}
+
+.menu a:hover{
+  color: #00ff00;
+  border-bottom: 2px solid #00ff00;
+  padding-bottom: 5px;
+}
+
+.caption{
+  font-family: 'Chilanka', cursive;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.container{
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.artist-person{
+width: 350px;
+height: 450px;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.Skylar{
+  background-image: url('../img/Skylar.jpg');
+}
+
+.about-artist{
+  box-sizing: border-box;
+  width: 350px;
+  height: 450px;
+  background-color: rgba(51, 204, 255, 0.7);
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: justify;
+  padding: 10px 15px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.about-artist:hover{
+  opacity: 1;
+}
+
+.artist-name{
+  font-family: 'Chilanka', cursive;
+  font-size: 24px;
+  text-align: center;
+  width: 350px;
+  margin-top: 10px;
+}
+
+.Avicii{
+  background-image: url('../img/Avicii.jpg');
+}
+
+.Marshmello{
+  background-image: url('../img/Marshmello.jpg');
+}
+
+.album-picture{
+  height: 250px;
+}
+
+.song-info{
+  width: 400px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.info{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 22px;
+  color: black;
+  margin-left: 10px;
+}
+
+.song-name{
+  font-style: italic;
+}
+
+.track-audio{
+width: 350px;
+margin-top: 15px;
+}
+
+.videoclip{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.container-v{
+  width: 80vw;
+  margin: auto;
+}
+
+.video-info{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 22px;
+  margin-left: 50px;
+  width: 200px;
+}
+
+.video-name{
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.video-block{
+  width: 650px;
+  box-shadow: 5px 5px 10px 0 #000;
+}
+
+.contacts{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 22px;
+  border: 6px double #000000;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.contact-name{
+  font-weight: bold;
+}
+
+.contact-line{
+  margin-bottom: 20px;
+}

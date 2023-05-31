@@ -1,0 +1,47 @@
+body{
+  background-color: #00ff22;
+}
+
+.logo-picture{
+  width: 150px;
+  margin: 15px;
+}
+
+.caption{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.header{
+  text-align: center;
+}
+
+.text-about{
+  width: 80vw;
+  margin: auto;
+  text-align: justify;
+  background-color: #19c230;
+  border: 6px double #000000;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.video{
+  border: 4px solid #7affaf;
+  box-shadow: 10px 10px 10px 0 #40b36e;
+}
+
+.video-block{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.picture{
+  width: 400px;
+}
+
+.gallery{
+  text-align: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron&display=swap');
+
+/* font-family: 'Bangers', cursive;
+font-family: 'Orbitron', sans-serif; */
+
+body{
+background-image: url('../img/fon8.jpg')
+}
+
+.header{
+  background-color: #0af516;
+}
+
+.logo-picture{
+  width: 120px;
+}
+
+.name{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 32px;
+}
+
+.brand{
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container{
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon{
+  width: 50px;
+}
+
+.social-icons a{
+  text-decoration: none;
+}
+
+.wrapper{
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 80vw;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.heading{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.new-games{
+
+}
+
+.poster{
+height: 350px;
+width: 270px;
+}
+
+
+.games{
+  display: flex;
+  justify-content: space-around;
+}
+
+.game-name{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 24px;
+  width: 270px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.about-games{
+  margin: auto;
+}
+
+.about-games th{
+  border: 3px solid #000;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.about-games td{
+  border: 3px solid #000;
+  font-family: 'Bangers', cursive;
+  vertical-align: middle;
+  font-size: 20px;
+  line-height: 1.3;
+  padding: 15px;
+}
+
+.game-title{
+  width: 500px;
+  border-radius: 250px;
+}
+
+.item-name{
+  font-style: italic;
+  font-weight: bold;
+}
+
+.requirements-list{
+  list-style-type: disc;
+  list-style-position: inside;
+}
